@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Booking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .seat {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        .seat.selected {
+            background-color: #ffc107;
+        }
+        .seat.booked {
+            background-color: #dc3545;
+            cursor: not-allowed;
+        }
+        .legend {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center my-4">Select Your Seats</h2>
+    <div id="seat-map" class="d-flex flex-wrap justify-content-center"></div>
+    <div class="legend d-flex justify-content-center">
+        <div class="seat mx-2"></div> Available
+        <div class="seat mx-2 selected"></div> Selected
+        <div class="seat mx-2 booked"></div> Booked
+    </div>
+    <h4 class="text-center mt-4">Total Price: <span id="total-price">0</span> USD</h4>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    const seatPrice = 10;
+    let totalSeats = [];
+    
+    $(document).ready(function() {
+        // Fetch seats from the server
+        $.get("fetch_seats.php", function(data) {
+            $('#seat-map').html(data);
+        });
+
+        $(document).on('click', '.seat.available', function() {
+            $(this).toggleClass('selected');
+            updateTotal();
+        });
+    });
+
+    function updateTotal() {
+        let selectedSeats = $('.seat.selected').length;
+        $('#total-price').text(selectedSeats * seatPrice);
+    }
+</script>
+</body>
+</html>
