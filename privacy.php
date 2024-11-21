@@ -52,7 +52,7 @@
     <p>We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page with the updated "Effective Date." We encourage you to review this policy periodically to stay informed about how we protect your personal information.</p>
 
     <h2 class="mt-4" style="color: #007bff;">8. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: <a href="mailto:moviehub1021@gmail.com" style="color: #007bff;">moviehub1021@gmail.com</a>.</p>
+    <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: <a href="mailto:hardikkasli123@gmail.com" style="color: #007bff;">hardikkasli123@gmail.com</a>.</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
