@@ -70,11 +70,13 @@ Follow these steps to set up the project locally:
 
 ## Screenshots  
 
-![Home](https://github.com/user-attachments/assets/830fb9cd-b557-4157-9f07-9cd55114abf8)
-![Show](https://github.com/user-attachments/assets/67c1951d-3381-4aa7-8d7e-14d0f613b03e)
-![image](https://github.com/user-attachments/assets/8dddf89d-5aa7-476d-a312-2cfc7e323e33)
-![image](https://github.com/user-attachments/assets/93db6965-4671-4d4d-8e90-b84ff25fcc62)
-![image](https://github.com/user-attachments/assets/2a2e8448-82e0-469d-b79c-0bd2b3e341f2)
-![image](https://github.com/user-attachments/assets/ee4f7412-1f7e-451e-9772-cfcb48b07b1b)
+![image](https://github.com/user-attachments/assets/4861842d-bef1-4fda-8d65-f9ed95f3977b)
+![image](https://github.com/user-attachments/assets/194eac39-c1ba-4026-9f3e-0d1310d86f59)
+![image](https://github.com/user-attachments/assets/7bc74d9f-c730-4bae-a638-0243c946311b)
+![image](https://github.com/user-attachments/assets/3055ec66-62ae-477e-9574-f373a52ad929)
+![image](https://github.com/user-attachments/assets/88ad3501-e210-4392-90d6-5f1246a4f490)
+![image](https://github.com/user-attachments/assets/4631ece0-7019-4d66-add8-a27380e1a0e0)
+![image](https://github.com/user-attachments/assets/ceac5ae9-3d14-4281-b103-8cf5d9cd03e2)
+
 
 ---
