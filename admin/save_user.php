@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user_id = isset($_POST['user_id']) ? $_POST['user_id'] : '';
     $user_name = $_POST['user_name'];
     $user_email = $_POST['user_email'];
-    $user_password = $_POST['user_password'];
+    $user_password = md5($_POST['user_password']);
     $user_phone = $_POST['user_phone'];
     $user_type = isset($_POST['user_type']) ? $_POST['user_type'] : 'user';
 
