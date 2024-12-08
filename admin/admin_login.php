@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
         $_SESSION['email'] = $row['user_email'];
         $_SESSION['user_id'] = $row['user_id'];
         $_SESSION['type'] = $row['user_type'];
-        header("Location: admin_panel.php");
+        header("Location: index.php");
         exit();
     } else {
         echo "Invalid email or password";
