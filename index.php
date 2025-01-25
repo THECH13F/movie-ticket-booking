@@ -32,7 +32,7 @@ if (!isset($_SESSION['user_id'])) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="About us.php">About us</a>
